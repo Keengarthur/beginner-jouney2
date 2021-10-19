@@ -1,0 +1,280 @@
+/*the imports below represent the various 
+css files used for this project*/
+
+@import "queries.css";
+@import "variables.css";
+@import "media.css"; 
+
+html{
+box-sizing:border-box;
+font-size:100%;
+}
+
+body{
+font-size:16px;
+font-weight:500;
+margin:0;
+padding:0;
+}
+header{
+position:relative;}
+
+.nav-bar{
+display:flex;
+align-items:top;
+justify-content:space-between;
+width:100vw;
+height:40vh;
+background:url(./desktop.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+position:sticky;
+top:10px;
+}
+
+
+.nav-bar h1{
+margin-left:45px;
+font-weight:700;
+}
+
+.mobile-icons{
+    width:28px; 
+    margin-top:30px;
+    height:10px;
+    margin-right: 30px;
+}
+.mobile-icons span{
+    display:block;
+    background:white;
+    height:2px;
+    margin:2px;
+}
+
+.desktop-icons{
+    /*display: inline-block;*/
+    margin-top: 30px;
+    margin-right:40px;   
+}
+
+.desktop-icons a{
+text-decoration:none;
+color:white;
+margin-top:30px;
+margin-right:15px;
+font-size:10px;
+}
+
+.container{
+background:white;
+width:50vw;
+height:150vh;
+margin:0 auto;
+margin-top:-60px;
+position:absolute;
+z-index:1;
+left:25%;
+border:0;
+border-radius:10px;
+}
+
+.mastercraft{
+position:relative;
+margin-bottom:40px;}
+
+.mastercraft img{
+position:absolute;
+top:-20px;
+left:50%;
+width:40px;
+}
+
+.div-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+
+.div-title p, .pop-up p{
+font-size:13px;
+opacity:0.5;
+}
+
+.bid{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.bid-link{
+background:hsl(176, 50%, 47%);
+padding:12px 20px;
+margin-left:70px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-size:10px;
+}
+
+.bookmark{
+display:flex;
+border-radius:50px;
+text-decoration:none;
+margin-right:70px;
+padding:0px;
+background:grey;}
+
+.bookmark img{
+width:35px;
+margin-right:10px;
+
+}
+
+.bookmark span{
+padding-top:10px;
+color:black;
+font-size:13px;
+margin-right:8px;
+font-weight:550;
+}
+
+.div-figures{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-top:50px;
+margin-right:10px;
+margin-left:10px;
+}
+
+.div-figures .one{
+border-right:1px solid lightgrey;
+padding-right:10px;
+margin-bottom:50px;
+}
+
+.div-figures .one h2{
+margin-top:0;
+margin-bottom:0;
+}
+
+.div-figures .one p{
+margin-top:3px;
+margin-bottom:0;
+font-size:13px;
+}
+
+.div-spans{
+border:1px solid lightgrey;
+border-radius:50px;
+width:100%;
+height:14px;
+}
+
+.div-spans span:first-child{
+background:hsl(176, 50%, 47%);
+width:70%;
+height:14px;
+padding:0px;
+display:inline-block;
+border-radius:50px;
+}
+
+.about-mastercraft{
+margin-top:50px;
+}
+
+.about-mastercraft h3{
+font-weight:bold;
+margin-bottom:10px;
+}
+
+.about-mastercraft p,.pledge-description{
+font-size:11px;
+font-weight:light;
+opacity:0.5;
+line-height:25px;
+}
+
+.bamboo{
+border:1px solid rgba(0,0,0,0.1);
+margin-top:30px;}
+
+.bamboo-stand{
+display:flex;
+align-items:center;
+justify-content:space-between;
+margin-right:15px;
+margin-left:15px;}
+
+.bamboo-stand h3{
+font-weight:bold;}
+
+.bamboo-stand p{
+font-size:12px;
+color:hsl(176, 50%, 47%);
+}
+
+.pledge-description{
+font-size:11px;
+font-weight:light;
+opacity:0.5;
+line-height:25px;
+margin-left:10px;
+margin-right:10px;
+}
+
+.choice{display:flex;
+align-items:center;
+justify-content:space-between;
+margin-right:15px;
+margin-left:15px;
+position:relative;
+}
+
+.choice .choice-one{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.choice a{
+background:hsl(176, 50%, 47%);
+text-decoration:none;
+padding:5px 8px;
+border-radius:50px;
+color:white;
+}
+
+.choice-one p{
+font-size:10px;
+padding-left:2px;
+}
+
+.bamboo:last-child{
+border:0;
+opacity:0.6;
+}
+
+.bamboo:last-child a{
+background:rgb(199, 190, 190);
+}
+.overlay{
+background: black;
+width:90%;
+position:absolute;
+top:0; 
+right:5px;
+color:white;
+overflow:hidden;
+max-height:0;
+transition:max-height o.3s;
+}
+
+.overlayPop{
+    max-height:320px;
+}
+
+
+
